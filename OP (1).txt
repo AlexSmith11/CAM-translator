@@ -1,0 +1,183 @@
+CAM Test Harness
+--------------------------------------
+-------START OF TEST HARNESS----------
+--------------------------------------
+Version: 0.1.Dec  6 2016.12:17:16
+--------------------------------------
+
+Resetting board...Done
+not requiring new lines. 
+Checking ASCII values to CAM.
+	Sending A: Looking for =, 	Received  =.  	(PASS)
+	Sending B: Looking for %%=, 	Received  %%=.  	(PASS)
+	Sending C: Looking for %=@, 	Received  %=@.  	(PASS)
+	Sending D: Looking for %=, 	Received  %=.  	(PASS)
+	Sending E: Looking for %, 	Received  %.  	(PASS)
+	Sending F: Looking for %=%, 	Received  %=%.  	(PASS)
+	Sending G: Looking for ==, 	Received  ==.  	(PASS)
+	Sending H: Looking for %==, 	Received  %==.  	(PASS)
+	Sending I: Looking for %%, 	Received  %%.  	(PASS)
+	Sending J: Looking for =%%, 	Received  =%%.  	(PASS)
+	Sending K: Looking for %@, 	Received  %@.  	(PASS)
+	Sending L: Looking for %%@, 	Received  %%@.  	(PASS)
+	Sending M: Looking for =%, 	Received  =%.  	(PASS)
+	Sending N: Looking for =@, 	Received  =@.  	(PASS)
+	Sending O: Looking for @=, 	Received  @=.  	(PASS)
+	Sending P: Looking for @%, 	Received  @%.  	(PASS)
+	Sending Q: Looking for ==@, 	Received  ==@.  	(PASS)
+	Sending R: Looking for %@=, 	Received  %@=.  	(PASS)
+	Sending S: Looking for %@%, 	Received  %@%.  	(PASS)
+	Sending T: Looking for @, 	Received  @.  	(PASS)
+	Sending U: Looking for @@, 	Received  @@.  	(PASS)
+	Sending V: Looking for ==%, 	Received  ==%.  	(PASS)
+	Sending W: Looking for =%@, 	Received  =%@.  	(PASS)
+	Sending X: Looking for =@%, 	Received  =@%.  	(PASS)
+	Sending Y: Looking for %@@, 	Received  %@@.  	(PASS)
+	Sending Z: Looking for ===, 	Received  ===.  	(PASS)
+	Sending .: Looking for @%%, 	Received  @%%.  	(PASS)
+	Sending ,: Looking for @%=, 	Received  @%=.  	(PASS)
+	Sending ': Looking for @=%, 	Received  @=%.  	(PASS)
+	Sending ?: Looking for @==, 	Received  @==.  	(PASS)
+	Sending !: Looking for @=@, 	Received  @=@.  	(PASS)
+	Sending +: Looking for @@%, 	Received  @@%.  	(PASS)
+	Sending -: Looking for @@=, 	Received  @@=.  	(PASS)
+	Sending *: Looking for @@@, 	Received  @@@.  	(PASS)
+	Sending /: Looking for @%@, 	Received  @%@.  	(PASS)
+	Sending 0: Looking for @%%%, 	Received  @%%%.  	(PASS)
+	Sending 1: Looking for @%%=, 	Received  @%%=.  	(PASS)
+	Sending 2: Looking for @%%@, 	Received  @%%@.  	(PASS)
+	Sending 3: Looking for @%=%, 	Received  @%=%.  	(PASS)
+	Sending 4: Looking for @%==, 	Received  @%==.  	(PASS)
+	Sending 5: Looking for @%=@, 	Received  @%=@.  	(PASS)
+	Sending 6: Looking for @%@%, 	Received  @%@%.  	(PASS)
+	Sending 7: Looking for @%@=, 	Received  @%@=.  	(PASS)
+	Sending 8: Looking for @%@@, 	Received  @%@@.  	(PASS)
+	Sending 9: Looking for @=%%, 	Received  @=%%.  	(PASS)
+PASSED 45.00 OUT OF 45
+	Testing with ABC	Received =|%%=|%=@	Matches correctly (PASS)
+	Testing with ABC DEF	Received =|%%=|%=@ %=|%|%=%	Matches correctly (PASS)
+	Testing with   A B CD!	Received   = %%= %=@|%=|@=@	Matches correctly (PASS)
+	Testing with AB*/	Received =|%%=|@@@|@%@	Matches correctly (PASS)
+	Testing with 0123456789	Received @%%%|@%%=|@%%@|@%=%|@%==|@%=@|@%@%|@%@=|@%@@|@=%%	Matches correctly (PASS)
+	Testing with .,'?!+-*/=	Received @%%|@%=|@=%|@==|@=@|@@%|@@=|@@@|@%@|@===@	Matches correctly (PASS)
+Resetting board...Done
+Scored: 6.00
+Checking CAM values to ASCII.
+	Sending =: Looking for A, 	Received  A.  	(PASS)
+	Sending %%=: Looking for B, 	Received  B.  	(PASS)
+	Sending %=@: Looking for C, 	Received  C.  	(PASS)
+	Sending %=: Looking for D, 	Received  D.  	(PASS)
+	Sending %: Looking for E, 	Received  E.  	(PASS)
+	Sending %=%: Looking for F, 	Received  F.  	(PASS)
+	Sending ==: Looking for G, 	Received  G.  	(PASS)
+	Sending %==: Looking for H, 	Received  H.  	(PASS)
+	Sending %%: Looking for I, 	Received  I.  	(PASS)
+	Sending =%%: Looking for J, 	Received  J.  	(PASS)
+	Sending %@: Looking for K, 	Received  K.  	(PASS)
+	Sending %%@: Looking for L, 	Received  L.  	(PASS)
+	Sending =%: Looking for M, 	Received  M.  	(PASS)
+	Sending =@: Looking for N, 	Received  N.  	(PASS)
+	Sending @=: Looking for O, 	Received  O.  	(PASS)
+	Sending @%: Looking for P, 	Received  P.  	(PASS)
+	Sending ==@: Looking for Q, 	Received  Q.  	(PASS)
+	Sending %@=: Looking for R, 	Received  R.  	(PASS)
+	Sending %@%: Looking for S, 	Received  S.  	(PASS)
+	Sending @: Looking for T, 	Received  T.  	(PASS)
+	Sending @@: Looking for U, 	Received  U.  	(PASS)
+	Sending ==%: Looking for V, 	Received  V.  	(PASS)
+	Sending =%@: Looking for W, 	Received  W.  	(PASS)
+	Sending =@%: Looking for X, 	Received  X.  	(PASS)
+	Sending %@@: Looking for Y, 	Received  Y.  	(PASS)
+	Sending ===: Looking for Z, 	Received  Z.  	(PASS)
+	Sending @%%: Looking for ., 	Received  ..  	(PASS)
+	Sending @%=: Looking for ,, 	Received  ,.  	(PASS)
+	Sending @=%: Looking for ', 	Received  '.  	(PASS)
+	Sending @==: Looking for ?, 	Received  ?.  	(PASS)
+	Sending @=@: Looking for !, 	Received  !.  	(PASS)
+	Sending @@%: Looking for +, 	Received  +.  	(PASS)
+	Sending @@=: Looking for -, 	Received  -.  	(PASS)
+	Sending @@@: Looking for *, 	Received  *.  	(PASS)
+	Sending @%@: Looking for /, 	Received  /.  	(PASS)
+	Sending @===@: Looking for =, 	Received  =.  	(PASS)
+	Sending @%%%: Looking for 0, 	Received  0.  	(PASS)
+	Sending @%%=: Looking for 1, 	Received  1.  	(PASS)
+	Sending @%%@: Looking for 2, 	Received  2.  	(PASS)
+	Sending @%=%: Looking for 3, 	Received  3.  	(PASS)
+	Sending @%==: Looking for 4, 	Received  4.  	(PASS)
+	Sending @%=@: Looking for 5, 	Received  5.  	(PASS)
+	Sending @%@%: Looking for 6, 	Received  6.  	(PASS)
+	Sending @%@=: Looking for 7, 	Received  7.  	(PASS)
+	Sending @%@@: Looking for 8, 	Received  8.  	(PASS)
+	Sending @=%%: Looking for 9, 	Received  9.  	(PASS)
+PASSED 46.00 OUT OF 46.00
+	Testing with %%@|=|%	Received LAE  (LAE  )	Matches correctly (PASS)
+	Testing with =|%%=%=@ %^|%|%=%	Received A= #EEF  (A# EEF  )	Doesn't match. (==Fail==)
+	Testing with   % = @	Received    @===@   (  E A T  )	Doesn't match. (==Fail==)
+	Testing with ===|=%@|@===@	Received ZW=  (ZW=  )	Matches correctly (PASS)
+Scored: 2.00
+Resetting board...Done
+TESTING RED LED FLASH: ASCII TO CAM MT R
+Expecting 20ms units
+	Timeout no data
+DONE
+TESTING BLUE LED FLASH: CAM TO ASCII =%|@ %@=
+Expecting 20ms units
+	Pin 31 (Correct pin) changed: 	Low for 61ms 
+	Pin 31 (Correct pin) changed: 	High for 40ms
+	Pin 31 (Correct pin) changed: 	Low for 59ms 
+	Pin 31 (Correct pin) changed: 	High for 21ms
+	Pin 31 (Correct pin) changed: 	Low for 65ms 
+	Pin 31 (Correct pin) changed: 	High for 79ms
+	Pin 31 (Correct pin) changed: 	Low for 180ms 
+	Pin 31 (Correct pin) changed: 	High for 19ms
+	Pin 31 (Correct pin) changed: 	Low for 49ms 
+	Pin 31 (Correct pin) changed: 	High for 79ms
+	Pin 31 (Correct pin) changed: 	Low for 60ms 
+	Pin 31 (Correct pin) changed: 	High for 40ms
+	Timeout
+DONE
+TESTING RED LED FLASH: ASCII TO CAM MT R
+Expecting 500ms units
+	Timeout no data
+DONE
+TESTING BLUE LED FLASH: CAM TO ASCII =%|@ %@=
+Expecting 500ms units
+	Pin 31 (Correct pin) changed: 	Low for 7060ms 
+	Pin 31 (Correct pin) changed: 	High for 992ms
+	Pin 31 (Correct pin) changed: 	Low for 1489ms 
+	Pin 31 (Correct pin) changed: 	High for 497ms
+	Pin 31 (Correct pin) changed: 	Low for 1985ms 
+	Pin 31 (Correct pin) changed: 	High for 1986ms
+	Pin 31 (Correct pin) changed: 	Low for 4466ms 
+	Pin 31 (Correct pin) changed: 	High for 496ms
+	Pin 31 (Correct pin) changed: 	Low for 1489ms 
+	Pin 31 (Correct pin) changed: 	High for 1984ms
+	Pin 31 (Correct pin) changed: 	Low for 1488ms 
+	Pin 31 (Correct pin) changed: 	High for 993ms
+	Timeout
+DONE
+TESTING RED LED FLASH: ASCII TO CAM MT R
+Expecting 500ms units
+	Timeout no data
+DONE
+TESTING BLUE LED FLASH: CAM TO ASCII =%|@ %@=
+Expecting 500ms units
+	Pin 31 (Correct pin) changed: 	Low for 59ms 
+	Pin 31 (Correct pin) changed: 	High for 994ms
+	Pin 31 (Correct pin) changed: 	Low for 1488ms 
+	Pin 31 (Correct pin) changed: 	High for 497ms
+	Pin 31 (Correct pin) changed: 	Low for 1986ms 
+	Pin 31 (Correct pin) changed: 	High for 1984ms
+	Pin 31 (Correct pin) changed: 	Low for 4467ms 
+	Pin 31 (Correct pin) changed: 	High for 495ms
+	Pin 31 (Correct pin) changed: 	Low for 1489ms 
+	Pin 31 (Correct pin) changed: 	High for 1986ms
+	Pin 31 (Correct pin) changed: 	Low for 1489ms 
+	Pin 31 (Correct pin) changed: 	High for 992ms
+	Timeout
+DONE
+
+--------------------------------------
+---------END OF TEST HARNESS----------
+--------------------------------------
+/dev/arduino/test2 arduino:avr:uno
